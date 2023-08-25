@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "dgSpecHash": "0pcEeymfW0bVKPzzdagYHQCY8oqjgXi4mBrPDE8wT0zLjS6iOX6p8Jdkd44DzpvxRYNwruAg3X6QbhwGCAMNbg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Diogo\\Desktop\\CRUDC#\\Funcionario\\Funcionario.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Diogo\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\k4os.compression.lz4.streams\\1.2.6\\k4os.compression.lz4.streams.1.2.6.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\k4os.hash.xxhash\\1.0.6\\k4os.hash.xxhash.1.0.6.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\mysql.data\\8.0.32\\mysql.data.8.0.32.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.runtime.loader\\4.3.0\\system.runtime.loader.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.text.encoding.codepages\\4.4.0\\system.text.encoding.codepages.4.4.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\Diogo\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "MySql.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Google.Protobuf"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "K4os.Compression.LZ4.Streams"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "K4os.Compression.LZ4"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "K4os.Hash.xxHash"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Portable.BouncyCastle"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Buffers"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Runtime.Loader"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.IO"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Threading.Tasks"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Reflection"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Reflection.Primitives"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "System.Text.Encoding.CodePages"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "A fonte local 'C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages' não existe.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    }
+  ]
+}
