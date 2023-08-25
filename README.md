@@ -1,5 +1,3 @@
-# CRUD em Windows Forms
-
 Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido em Windows Forms usando a linguagem C#. O objetivo deste projeto é permitir o cadastro, busca, atualização e exclusão de informações de funcionários em um banco de dados MySQL local.
 
 <p align="center">
@@ -18,25 +16,6 @@ Este é um projeto de CRUD (Create, Read, Update, Delete) desenvolvido em Window
 - .NET Framework: Certifique-se de ter o .NET Framework instalado em seu computador para executar o projeto.
 - MySQL Server: É necessário ter um servidor MySQL instalado localmente para que o CRUD possa se conectar ao banco de dados.
 
-## Como Executar o Projeto
-
-1. Clone este repositório em sua máquina local.
-2. Abra o projeto no Visual Studio.
-3. Certifique-se de que o MySQL Server esteja em execução e que as credenciais de conexão no arquivo `ConexaoBanco.cs` estejam corretas.
-4. Compile e execute o projeto.
-5. A janela do CRUD em Windows Forms será aberta, permitindo que você interaja com as funcionalidades.
-
-## Banco de Dados
-
-- O banco de dados utilizado é chamado `dbFuncionarios`.
-- A tabela utilizada para armazenar os registros de funcionários é `funcionarios`.
-- A estrutura da tabela é a seguinte:
-  - `id`: Chave primária, autoincremental, representando o identificador único do funcionário.
-  - `nome`: Nome do funcionário.
-  - `email`: E-mail do funcionário.
-  - `cpf`: CPF do funcionário.
-  - `endereco`: Endereço do funcionário.
-
 ## Estrutura do Projeto
 
 A estrutura do projeto está organizada da seguinte forma:
@@ -45,6 +24,39 @@ A estrutura do projeto está organizada da seguinte forma:
 - **Pasta DataAccess**: Contém a classe `ConexaoBanco.cs`, responsável por gerenciar a conexão com o banco de dados MySQL.
 - **Pasta Services**: Pode conter classes que implementam a lógica de negócios, como `CadastroFuncionarios.cs`.
 - **Arquivo Program.cs**: Ponto de entrada da aplicação.
+
+## Configuração do Banco de Dados
+
+Antes de executar o projeto, é necessário configurar o banco de dados e a tabela necessários. Siga as etapas abaixo:
+
+1. Abra o seu cliente MySQL ou utilize a interface de linha de comando.
+2. Execute os seguintes comandos para criar o banco de dados, a tabela e inserir dados de exemplo:
+
+```sql
+-- Criação do banco de dados
+CREATE DATABASE dbFuncionarios
+DEFAULT CHARACTER SET utf8mb4
+DEFAULT COLLATE utf8mb4_general_ci;
+
+USE dbFuncionarios;
+
+-- Criação da tabela do banco de dados
+CREATE TABLE IF NOT EXISTS funcionarios (
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+cpf VARCHAR(14) NOT NULL,
+endereco VARCHAR(200) NOT NULL
+) DEFAULT CHAR SET utf8mb4;
+```
+
+## Como Executar o Projeto
+
+1. Clone este repositório em sua máquina local.
+2. Abra o projeto no Visual Studio.
+3. Certifique-se de que o MySQL Server esteja em execução e que as credenciais de conexão no arquivo `ConexaoBanco.cs` estejam corretas.
+4. Compile e execute o projeto.
+5. A janela do CRUD em Windows Forms será aberta, permitindo que você interaja com as funcionalidades.
 
 ## Contribuição
 
